@@ -1,0 +1,43 @@
+name: Update sitemap.xml
+
+on:
+  schedule:
+    # Runs every day at 02:00 UTC (~07:30 IST). Change to whatever cadence you want.
+    # Examples:
+    #   '0 */6 * * *'  every 6 hours
+    #   '0 * * * *'    every hour
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # lets you trigger manually from GitHub UI
+
+permissions:
+  contents: write  # needed so the action can commit sitemap.xml back to the repo
+
+jobs:
+  refresh-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate fresh sitemap from API
+        env:
+          SITE_URL: https://www.quantifyai.co
+          API_BASE: https://quantifyaiapi.mavenerp.in/public/api
+        run: node scripts/update-sitemap.mjs
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet sitemap.xml; then
+            echo "No sitemap changes; skipping commit."
+          else
+            git add sitemap.xml
+            git commit -m "chore: refresh sitemap.xml from live API"
+            git push
+          fi
