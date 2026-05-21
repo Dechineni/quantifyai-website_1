@@ -1,87 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://quantifyai.co/</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/approach-global-survey-panel-with-fraud-detection-technology</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/platform</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/solutions</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/approach</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/blogs</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/company</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/company-product-market-research-insights-with-ai-analytics</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/services</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/services/questionnaire-development</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/services/survey-programming</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/services/fielding-data-collection</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/services/data-analysis</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/contact</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/contact-market-segmentation-analysis-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/blogs</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/country-net-rep-data-table</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quantifyai.co/platform-b2b-survey-panel-provider-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://quantifyai.co/privacy-policy</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/terms</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/services/data-analysis/market-segmentation-analysis-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/privacy-policy</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.8</priority>
+    <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/services/fielding-data-collection/fraud-free-survey-data-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quantifyai.co/services/questionnaire-development/b2b-survey-panel-provider-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quantifyai.co/services/survey-programming/verified-survey-respondents-in-california</loc>
-    <lastmod>2026-05-19</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://quantifyai.co/solutions-online-survey-platform-for-b2b-insights</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/blogs/cross-country-consumer-data-emerging-markets-2026</loc>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://quantifyai.co/terms</loc>
-    <lastmod>2026-05-19</lastmod>
+    <loc>https://www.quantifyai.co/blogs/sample-size-survey-quality-methodology</loc>
+    <lastmod>2026-05-16</lastmod>
     <changefreq>always</changefreq>
-    <priority>0.4</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs/income-bands-reshaping-consumer-spending-2026</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs?category=consumer-insights</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs?category=Market Research Insights</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs?category=research-methodology</loc>
+    <lastmod>2026-05-16</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
