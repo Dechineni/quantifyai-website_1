@@ -2,87 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.quantifyai.co/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/platform</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/solutions</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/approach</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/company</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/questionnaire-development</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/survey-programming</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/fielding-data-collection</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/data-analysis</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/contact</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/blogs</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/terms</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/privacy-policy</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-05-31</lastmod>
     <changefreq>always</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs/how-to-find-the-right-survey-respondents-for-accurate-market-research</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/blogs/understanding-market-research-panels-benefits-uses-and-business-value</loc>
@@ -123,6 +129,12 @@
   <url>
     <loc>https://www.quantifyai.co/blogs?category=research-methodology</loc>
     <lastmod>2026-05-16</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs?category=verified-survey-respondents</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
