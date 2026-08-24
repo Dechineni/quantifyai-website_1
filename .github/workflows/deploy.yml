@@ -1,0 +1,80 @@
+name: Build and deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  # Build + verify only (no deploy) so a branch can be proven safe first.
+  pull_request:
+    branches: [main]
+  schedule:
+    # Every 6 hours, so a new post is live within 6 hours unattended.
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  repository_dispatch:
+    types: [blog-published]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        # The blog API is slow and has served stale post lists before.
+        run: |
+          for attempt in 1 2 3; do
+            echo "::group::Build attempt $attempt"
+            if npm run build; then
+              echo "::endgroup::"
+              exit 0
+            fi
+            echo "::endgroup::"
+            echo "Build attempt $attempt failed; retrying in 30s..."
+            sleep 30
+          done
+          echo "All three build attempts failed."
+          exit 1
+
+      - name: Verify build before publishing
+        run: |
+          if [ -f scripts/verify-build.mjs ]; then
+            node scripts/verify-build.mjs
+          else
+            echo "scripts/verify-build.mjs not present - skipping verification"
+          fi
+
+      - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
