@@ -2,87 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.quantifyai.co/</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/platform</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/solutions</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/approach</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/company</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/questionnaire-development</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/survey-programming</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/fielding-data-collection</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/services/data-analysis</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/contact</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/blogs</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/terms</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/privacy-policy</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>always</changefreq>
     <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs/how-human-intelligence-helps-train-better-ai-data-accuracy-and-ai-performance</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.quantifyai.co/blogs/synthetic-survey-respondents-explained-how-ai-creates-virtual-research-participants</loc>
@@ -321,6 +327,12 @@
   <url>
     <loc>https://www.quantifyai.co/blogs?category=consumer-insights</loc>
     <lastmod>2026-05-17</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.quantifyai.co/blogs?category=human-data-ai-training</loc>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
